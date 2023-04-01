@@ -25,7 +25,7 @@ const Navbar = () => {
 
                     </div> 
 
-                    <h2 className='text-2xl text-orange-600 font-bold'>Shop Now BD</h2>
+                    <h2 className='text-2xl text-orange-500 font-bold'>Fit YOU</h2>
                 </div>
 
 

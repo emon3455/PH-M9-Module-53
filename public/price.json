@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "name": "Basic Plan",
+      "features": [
+        "Access to basic features",
+        "5 project collaborators",
+        "1 GB storage"
+      ],
+      "price": 50
+    },
+    {
+      "id": 2,
+      "name": "Pro Plan",
+      "features": [
+        "Access to all features",
+        "10 project collaborators",
+        "5 GB storage"
+      ],
+      "price": 100
+    },
+    {
+      "id": 3,
+      "name": "Enterprise Plan",
+      "features": [
+        "Access to all features",
+        "20 project collaborators",
+        "10 GB storage"
+      ],
+      "price": 150
+    }
+]
+  
