@@ -1,5 +1,6 @@
 import React from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import PhoneBar from '../PhoneBar/PhoneBar';
 
 
 const Dashboard = () => {
@@ -29,8 +30,8 @@ const Dashboard = () => {
 
             <div className="w-full">
 
-                    <LineChart
-                        width={1200}
+                    <LineChart className='w-full'
+                        width={1280}
                         height={300}
                         data={result}
                         >
@@ -43,7 +44,12 @@ const Dashboard = () => {
 
             </div>    
 
-            
+            <div className="w-full">
+                <h2 className='text-3xl mt-8 text-center font-semibold'>This Bar Diagram is about Phone Bar</h2>
+
+                <PhoneBar></PhoneBar>
+
+            </div>
             
 
             
