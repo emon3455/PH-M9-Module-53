@@ -5,6 +5,7 @@ import './App.css'
 import Navbar from './Components/NavBar/Navbar'
 import PriceList from './Components/PriceList/PriceList'
 import Dashboard from './Components/Dashboard/Dashboard'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,8 @@ function App() {
       <PriceList></PriceList>
 
       <Dashboard></Dashboard>
+
+      <Footer></Footer>
 
     </div>
   )
