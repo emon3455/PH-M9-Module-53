@@ -28,8 +28,9 @@ const Dashboard = () => {
 
             <h2 className='text-center text-4xl mt-2 font-semibold'>Client Reviews of our product:</h2>
 
-            <div className="w-full">
+            <div className="max-w-7xl w-full h-96">
 
+                <ResponsiveContainer width='100%' height='100%'>
                     <LineChart className='w-full'
                         width={1280}
                         height={300}
@@ -41,6 +42,7 @@ const Dashboard = () => {
                         <Line type="monotone" dataKey="package2" stroke="#45ca9d" />
                         <Line type="monotone" dataKey="package3" stroke="#6ca9d" />
                     </LineChart>
+                </ResponsiveContainer>     
 
             </div>    
 

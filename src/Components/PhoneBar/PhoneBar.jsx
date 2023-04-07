@@ -27,18 +27,19 @@ const PhoneBar = () => {
     },[])
 
     return (
-        <div>
+        <div style={{maxWidth: '1250px', height: "400px", width: '100%'}}>
 
-            <BarChart
-            width={1250}
-            height={400}
-            data={phones}
-            >
-                <Bar dataKey="price" fill="#8884d8" />
-                <XAxis dataKey="name"/>
-                <YAxis/>
+            <ResponsiveContainer width='100%' height='100%'>
+                <BarChart
+                data={phones}
+                >
+                    <Bar dataKey="price" fill="#8884d8" />
+                    <XAxis dataKey="name"/>
+                    <YAxis/>
 
-            </BarChart>
+                </BarChart>
+
+            </ResponsiveContainer>
 
         </div>
     );
